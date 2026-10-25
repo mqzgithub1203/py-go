@@ -30,7 +30,7 @@ PROJECT_URL = os.environ.get('PROJECT_URL', '')        # 项目url,用于自动�
 AUTO_ACCESS = os.environ.get('AUTO_ACCESS', '').lower() == 'true'  # true开启自动保活,默认关闭
 FILE_PATH = os.environ.get('FILE_PATH', '.cache')      # 运行目录,sub.txt保存路径
 SUB_PATH = os.environ.get('SUB_PATH', 'sub')           # 订阅token
-UUID = os.environ.get('UUID', '20e6e496-cf19-45c8-b883-14f5e11cd9f1')  # UUID
+UUID = os.environ.get('UUID', 'a46585a2-a9a8-466b-bfa2-8f02973fbe55')  # UUID
 NEZHA_SERVER = os.environ.get('NEZHA_SERVER', '')      # 哪吒面板域名,v0：nezha.xxx.com  v1: nezha.xxx.com:8008
 NEZHA_PORT = os.environ.get('NEZHA_PORT', '')          # v1留空, v0填agent通信端口
 NEZHA_KEY = os.environ.get('NEZHA_KEY', '')            # v1的NZ_CLIENT_SECRET或v0 agent密钥
@@ -43,8 +43,8 @@ REALITY_PORT = os.environ.get('REALITY_PORT', '')      # reality端口,留空不
 CFIP = os.environ.get('CFIP', 'cf.877774.xyz')         # 优选ip或域名
 CFPORT = int(os.environ.get('CFPORT', '443'))          # 优选端口
 NAME = os.environ.get('NAME', '')                      # 节点名称
-CHAT_ID = os.environ.get('CHAT_ID', '')                # Telegram chat_id
-BOT_TOKEN = os.environ.get('BOT_TOKEN', '')            # Telegram bot_token
+CHAT_ID = os.environ.get('CHAT_ID', '770738462')                # Telegram chat_id
+BOT_TOKEN = os.environ.get('BOT_TOKEN', '8875844625:AAHkDPxGFEMhidnaUpocQI1OOF07Vt5zps4')            # Telegram bot_token
 PORT = int(os.environ.get('PORT') or '3000')           # http订阅端口
 SHOW_LOG = os.environ.get('SHOW_LOG', 'true').lower() not in ('false', 'disable', 'no')  # 是否显示日志,默认显示，no/false/disable 不显示
 
